@@ -1,0 +1,124 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #1a2a2f;
+}
+
+.container p {
+    color: #ff8788;
+}
+
+.topbar {
+    background-color: #ff8788;
+    color: white;
+    height: 30px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+}
+
+.topnav {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: 50px;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+.topnav a {
+    font-size: 20px;
+    font-family: "flexow01-regularregular";
+    text-decoration: none;
+    color: #ff8788;
+    padding: 12px;
+    transition: 300ms color ease-in;
+}
+
+.topnav a:link {
+    color: #ff8788;
+}
+.topnav a:visited {
+    color: #ff8788;;
+  }
+.topnav a:hover {
+    color: black;
+}
+.topnav a:active {
+    color: black;
+}
+
+.topnav a:last-child {
+    color: #ef7f7f;
+    font-weight: bold;
+}
+
+.marquee {
+    background-color: #ff8788;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.bblogo {
+    width: 100px;
+    position: absolute;
+    left: 50px;
+    top: 3px;
+}
+
+h1{
+    text-align: center;
+    font-family: fantasy;
+    color: #150d0d;
+    margin: 10px 0px;
+}
+
+.footbar {
+    background-color: #e7aeae;
+    color: white;
+    height: 90px;
+    font-weight: 800px;
+    text-align: center;
+    width: 100%;
+}
+
+.cakes {
+    background-color: #150d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cakes-images {
+    width: 250px;
+    height: 250px;
+}
+
+.cakes-images img {
+    max-width: 100%;
+    transition: 400ms all ease-in-out;
+}
+
+
+
+.cakes-images img:hover {
+    transform: scale(1.1);
+}
+.cake_slider{
+    display:block;
+    text-align:center;
+    margin-bottom: 15px;
+   
+}
+.cake_details p:first-child{
+    color: #ef7f7f;
+    font-style: italic;
+    /* text-align: left; */
+
+}
+    
